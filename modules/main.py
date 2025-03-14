@@ -27,7 +27,7 @@ from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-credit ="𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" 
+credit ="Rajesh Mahar 🕊️🕊️" 
 # Initialize the bot
 bot = Client(
     "bot",
@@ -107,8 +107,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Nikhil_saini_khe"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/rajrmahar"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+T4CxZVremWUzZmI1"),
         ],
     ]
 )
@@ -117,8 +117,8 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Nikhil_saini_khe"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/rajrmahar"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+T4CxZVremWUzZmI1"),
         ],
     ]
 )
@@ -181,7 +181,7 @@ async def start_command(bot: Client, message: Message):
     # Caption for the image
     caption = (
         "🌟 Welcome Boss😸! 🌟\n\n"
-        "➽ I am powerful uploader bot 📥\n\n➽ 𝐔𝐬𝐞 /saini Command To Extract TXT 🗃️ \n\n➽ 𝐔𝐬𝐞 /Stop for **Stop** ⛔ working process \n\n➽ 𝐔𝐬𝐞 /cookies for update YouTube cookies.\n\n➽ 𝐔𝐬𝐞 /logs to see your bot logs.\n\n➽ 𝐌𝐚𝐝𝐞 𝐁𝐲: 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🦁"
+        "➽ I am powerful uploader bot 📥\n\n➽ 𝐔𝐬𝐞 /upload Command To Extract TXT 🗃️ \n\n➽ 𝐔𝐬𝐞 /Stop for **Stop** ⛔ working process \n\n➽ 𝐔𝐬𝐞 /cookies for update YouTube cookies.\n\n➽ 𝐔𝐬𝐞 /logs to see your bot logs.\n\n➽ 𝐌𝐚𝐝𝐞 𝐁𝐲: Rajesh Mahar 🕊️🕊️"
     )
 
     await asyncio.sleep(1)
@@ -210,7 +210,7 @@ async def start_command(bot: Client, message: Message):
 
     await asyncio.sleep(1)
     await loading_message.edit_text(
-        "Checking status Ok... \n**ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+1e-r94cF6yE3NzA1'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n"
+        "Checking status Ok... \n**ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+T4CxZVremWUzZmI1'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n"
         "Progress:🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%\n\n"
     )
         
@@ -238,13 +238,13 @@ async def send_logs(bot: Client, m: Message):
 
 @bot.on_message(filters.command(["stop"]) )
 async def restart_handler(_, m):
-    await m.reply_text("🦅ˢᵗᵒᵖᵖᵉᵈ ᵇᵃᵇʸ💞", True)
+    await m.reply_text("Batch Stopped", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["saini"]) )
+@bot.on_message(filters.command(["ram"]) )
 async def txt_handler(bot: Client, m: Message):
-    editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
+    editable = await m.reply_text(f"**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -281,7 +281,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣━━⪼ send 144  for 144p\n┣━━⪼ send 240  for 240p\n┣━━⪼ send 360  for 360p\n┣━━⪼ send 480  for 480p\n┣━━⪼ send 720  for 720p\n┣━━⪼ send 1080 for 1080p\n╰━━⌈⚡[🦋🇸‌🇦‌🇮‌🇳‌🇮‌🦋]⚡⌋━━➣ **")
+    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣━━⪼ send 144  for 144p\n┣━━⪼ send 240  for 240p\n┣━━⪼ send 360  for 360p\n┣━━⪼ send 480  for 480p\n┣━━⪼ send 720  for 720p\n┣━━⪼ send 1080 for 1080p\n╰━━⌈Rajesh Mahar 🕊️🕊️⌋━━➣ **")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -308,24 +308,24 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message
-    credit = "️𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🕊️⁪⁬⁮⁮⁮"
+    credit = "️Rajesh Mahar 🕊️🕊️⁪⁬⁮⁮⁮"
     if raw_text3 == '1':
-        CR = '𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🕊️'
+        CR = 'Rajesh Mahar 🕊️🕊️'
     elif raw_text3:
         CR = raw_text3
     else:
         CR = credit
         
-    await editable.edit("**Enter Your PW Token For 𝐌𝐏𝐃 𝐔𝐑𝐋**\n\n**Send  __0__  for use default**")
+    await editable.edit("**Enter Your PW Token For 𝐌𝐏𝐃 𝐔𝐑𝐋**\n\n**Send  __1__  for use default**")
     input4: Message = await bot.listen(editable.chat.id)
     raw_text4 = input4.text
     await input4.delete(True)
-    if raw_text4 == '0':
+    if raw_text4 == '1':
         PW = token
     else:
         PW = raw_text4
         
-    await editable.edit("⚪Send   ☞ **no** for **video** format\n\n🔘Send   ☞ **No** for **Document** format")
+    await editable.edit("⚪Send   ☞ **No** for **video** format\n\n🔘Send   ☞ **no** for **Document** format")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -336,7 +336,7 @@ async def txt_handler(bot: Client, m: Message):
         getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
         thumb = "thumb.jpg"
     else:
-        thumb == "no"
+        thumb == "No"
 
     await m.reply_text(
         f"__**🎯Target Batch :  {b_name} **__"
@@ -415,10 +415,10 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**🎞️ Title : ** {name1} **[{res}]**.mp4\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By : {CR}\n**'
-                cc1 = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**📁 Title : ** {name1} .pdf\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By : {CR}\n**'
-                cczip = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**📁 Title : ** {name1} .zip\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By : {CR}\n**'  
-                ccimg = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**📁 Title : ** {name1} .jpg\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By : {CR}\n**'  
+                cc = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**🎞️ Title : ** {name1}.mp4**\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n**🌟 Extracted By : {CR}\n**'
+                cc1 = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**📁 Title : ** {name1}.pdf**\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n**🌟 Extracted By : {CR}\n**'
+                cczip = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**📁 Title : ** {name1}.zip**\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n**🌟 Extracted By : {CR}\n**'  
+                ccimg = f'**——— ✦  {str(count).zfill(3)} ✦ ———**\n\n**📁 Title : ** {name1}.jpg**\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n**🌟 Extracted By : {CR}\n**'  
                                 
                 if "drive" in url:
                     try:
@@ -497,7 +497,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue
                           
                 else:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n🔗𝐈𝐧𝐝𝐞𝐱 » {str(count).zfill(3)}/{len(links)}\n\n**📚𝐓𝐢𝐭𝐥𝐞** » `{name}\n\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}p`\n\n**✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦"
+                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n🔗𝐈𝐧𝐝𝐞𝐱 » {str(count).zfill(3)}/{len(links)}\n\n**📚𝐓𝐢𝐭𝐥𝐞** » `{name}\n\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}p`\n\n**✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ Rajesh Mahar 🕊️🕊️"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -515,7 +515,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🕊️Done Baby💞")
+    await m.reply_text("🕊️ Batch Extract Successfully 🕊️")
 
 
 
